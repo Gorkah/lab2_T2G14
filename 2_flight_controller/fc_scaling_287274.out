@@ -1,0 +1,26 @@
+rm -f fc_seq fc_mpi
+mpicc fc_mpi.c auxiliar.c -o fc_mpi -O3 -march=native -lm -std=c99
+Running with 20 ranks
+Total planes read: 10000000
+Flight controller simulation: #input input_planes_10kk.txt mode: 2 size: 20
+Time simulation:     2.16s
+Time communication:  3.68s
+Time total:          4.77s
+Running with 40 ranks
+Total planes read: 10000000
+Flight controller simulation: #input input_planes_10kk.txt mode: 2 size: 40
+Time simulation:     1.04s
+Time communication:  2.71s
+Time total:          2.90s
+Running with 60 ranks
+Total planes read: 10000000
+Flight controller simulation: #input input_planes_10kk.txt mode: 2 size: 60
+Time simulation:     0.60s
+Time communication:  2.17s
+Time total:          2.27s
+Running with 80 ranks
+Total planes read: 10000000
+Flight controller simulation: #input input_planes_10kk.txt mode: 2 size: 80
+Time simulation:     0.45s
+Time communication:  1.80s
+Time total:          1.87s

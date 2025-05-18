@@ -1,0 +1,46 @@
+Weak Scaling Results
+Running with 1 processors (weak scaling)
+Monte Carlo sphere/cube ratio estimation
+N: 100000000 samples, d: 10, seed 42, size: 1
+Ratio = 2.494e-03 (2.490e-03) Err: 3.85e-06
+Elapsed time: 0.000 seconds
+Running with 2 processors (weak scaling)
+Monte Carlo sphere/cube ratio estimation
+N: 200000000 samples, d: 10, seed 42, size: 2
+Ratio = 2.489e-03 (2.490e-03) Err: 1.40e-06
+Elapsed time: 0.002 seconds
+Running with 4 processors (weak scaling)
+Monte Carlo sphere/cube ratio estimation
+N: 400000000 samples, d: 10, seed 42, size: 4
+Ratio = 2.491e-03 (2.490e-03) Err: 7.80e-07
+Elapsed time: 0.002 seconds
+Running with 8 processors (weak scaling)
+Monte Carlo sphere/cube ratio estimation
+N: 800000000 samples, d: 10, seed 42, size: 8
+Ratio = 2.494e-03 (2.490e-03) Err: 3.17e-06
+Elapsed time: 0.003 seconds
+Running with 16 processors (weak scaling)
+Monte Carlo sphere/cube ratio estimation
+N: 1600000000 samples, d: 10, seed 42, size: 16
+Ratio = 2.490e-03 (2.490e-03) Err: 5.17e-07
+Elapsed time: 0.002 seconds
+Running with 32 processors (weak scaling)
+Monte Carlo sphere/cube ratio estimation
+N: 3200000000 samples, d: 10, seed 42, size: 32
+Ratio = 2.490e-03 (2.490e-03) Err: 5.78e-07
+Elapsed time: 0.002 seconds
+Running with 64 processors (weak scaling)
+Monte Carlo sphere/cube ratio estimation
+N: 6400000000 samples, d: 10, seed 42, size: 64
+Ratio = 2.490e-03 (2.490e-03) Err: 4.56e-08
+Elapsed time: 0.002 seconds
+Running with 128 processors (weak scaling)
+Monte Carlo sphere/cube ratio estimation
+N: 12800000000 samples, d: 10, seed 42, size: 128
+Ratio = 2.491e-03 (2.490e-03) Err: 1.16e-07
+Elapsed time: 0.001 seconds
+Running with 192 processors (weak scaling)
+Monte Carlo sphere/cube ratio estimation
+N: 19200000000 samples, d: 10, seed 42, size: 192
+Ratio = 2.490e-03 (2.490e-03) Err: 5.08e-10
+Elapsed time: 0.001 seconds

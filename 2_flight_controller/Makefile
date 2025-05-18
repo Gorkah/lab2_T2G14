@@ -2,12 +2,12 @@ CC=gcc
 MPICC=mpicc
 CFLAGS=-O3 -march=native -lm -std=c99
 
-all: fc_seq fc_mpi
+all: seq mpi
 
-fc_seq: fc_seq.c auxiliar.c
+seq:
 	$(CC) fc_seq.c auxiliar.c -o fc_seq $(CFLAGS)
 
-fc_mpi: fc_mpi.c auxiliar.c
+mpi:
 	$(MPICC) fc_mpi.c auxiliar.c -o fc_mpi $(CFLAGS)
 
 clean:

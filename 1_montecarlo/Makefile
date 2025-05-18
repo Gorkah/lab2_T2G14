@@ -1,10 +1,20 @@
-CC=mpicc
-CFLAGS=-O3 -march=native -lm -std=c99
+# Compiler and flags
+CC = mpicc
+CFLAGS = -O3 -Wall -lm
 
-all: montecarlo
+# Target executable
+TARGET = montecarlo
 
-montecarlo: montecarlo.c
-	$(CC) montecarlo.c -o montecarlo $(CFLAGS)
+# Source file
+SRC = montecarlo.c
 
+# Default target
+all: $(TARGET)
+
+# Compile the program
+$(TARGET): $(SRC)
+    $(CC) $(CFLAGS) -o $@ $<
+
+# Clean up generated files
 clean:
-	rm -f montecarlo
+    rm -f $(TARGET)

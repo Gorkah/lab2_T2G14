@@ -1,0 +1,46 @@
+Strong Scaling Results
+Running with 1 processors (strong scaling)
+Monte Carlo sphere/cube ratio estimation
+N: 100000000 samples, d: 10, seed 42, size: 1
+Ratio = 2.494e-03 (2.490e-03) Err: 3.85e-06
+Elapsed time: 0.000 seconds
+Running with 2 processors (strong scaling)
+Monte Carlo sphere/cube ratio estimation
+N: 100000000 samples, d: 10, seed 42, size: 2
+Ratio = 2.487e-03 (2.490e-03) Err: 3.34e-06
+Elapsed time: 0.001 seconds
+Running with 4 processors (strong scaling)
+Monte Carlo sphere/cube ratio estimation
+N: 100000000 samples, d: 10, seed 42, size: 4
+Ratio = 2.485e-03 (2.490e-03) Err: 5.64e-06
+Elapsed time: 0.005 seconds
+Running with 8 processors (strong scaling)
+Monte Carlo sphere/cube ratio estimation
+N: 100000000 samples, d: 10, seed 42, size: 8
+Ratio = 2.495e-03 (2.490e-03) Err: 4.75e-06
+Elapsed time: 0.002 seconds
+Running with 16 processors (strong scaling)
+Monte Carlo sphere/cube ratio estimation
+N: 100000000 samples, d: 10, seed 42, size: 16
+Ratio = 2.484e-03 (2.490e-03) Err: 5.94e-06
+Elapsed time: 0.017 seconds
+Running with 32 processors (strong scaling)
+Monte Carlo sphere/cube ratio estimation
+N: 100000000 samples, d: 10, seed 42, size: 32
+Ratio = 2.487e-03 (2.490e-03) Err: 3.28e-06
+Elapsed time: 0.002 seconds
+Running with 64 processors (strong scaling)
+Monte Carlo sphere/cube ratio estimation
+N: 100000000 samples, d: 10, seed 42, size: 64
+Ratio = 2.490e-03 (2.490e-03) Err: 7.95e-07
+Elapsed time: 0.002 seconds
+Running with 128 processors (strong scaling)
+Monte Carlo sphere/cube ratio estimation
+N: 100000000 samples, d: 10, seed 42, size: 128
+Ratio = 2.486e-03 (2.490e-03) Err: 4.16e-06
+Elapsed time: 0.009 seconds
+Running with 192 processors (strong scaling)
+Monte Carlo sphere/cube ratio estimation
+N: 100000000 samples, d: 10, seed 42, size: 192
+Ratio = 2.485e-03 (2.490e-03) Err: 5.87e-06
+Elapsed time: 0.011 seconds
